@@ -15,4 +15,3 @@ async def measure_runtime() -> float:
     await gather(*tasks)
     end = time()
     return (end - start)
-
